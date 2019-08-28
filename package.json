@@ -1,0 +1,11 @@
+{
+  "name": "monorepo-tsconfig",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
