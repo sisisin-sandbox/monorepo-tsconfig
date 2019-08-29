@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { HogeDao } from '../../shared/lib/es';
+import { HogeDao } from 'shared/lib/es';
 const hogeDao = new HogeDao();
+
 export const App: React.FC = () => {
   const [hoge, setHoge] = React.useState<number[]>([]);
   React.useEffect(() => {
