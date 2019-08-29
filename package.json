@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "clean": "lerna run clean",
-    "tsc:all":"yarn run clean && tsc -b ./packages/shared/tsconfig.front.json ./packages/shared/tsconfig.node.json ./packages/front ./packages/functions",
+    "tsc:all": "yarn run clean && tsc -b ./packages/shared/tsconfig.browser.json ./packages/shared/tsconfig.node.json ./packages/front ./packages/functions",
     "build": "yarn tsc:all && yarn workspace front build",
     "prepare": "yarn tsc:all"
   },

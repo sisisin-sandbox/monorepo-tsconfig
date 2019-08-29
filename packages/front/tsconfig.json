@@ -16,5 +16,5 @@
     "jsx": "react"
   },
   "include": ["src"],
-  "references": [{ "path": "../shared/tsconfig.front.json" }]
+  "references": [{ "path": "../shared/tsconfig.browser.json" }]
 }
