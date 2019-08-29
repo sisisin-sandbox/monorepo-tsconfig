@@ -1,0 +1,9 @@
+{
+  "folders": [
+    { "path": "." },
+    { "path": "./packages/front" },
+    { "path": "./packages/shared" },
+    { "path": "./packages/functions" }
+  ],
+  "settings": { "editor.formatOnSave": true }
+}
