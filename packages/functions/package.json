@@ -1,0 +1,13 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "clean": "rm -rf ./lib *.tsbuildinfo"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
