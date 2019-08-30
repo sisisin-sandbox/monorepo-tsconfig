@@ -1,5 +1,8 @@
+import { MyFirestore } from 'firebase';
+
 export class HogeDao {
+  constructor(private db: MyFirestore) {}
   get() {
-    return Promise.resolve({ hoge: [1, 2, 3] });
+    return this.db.collection('hoge').get();
   }
 }

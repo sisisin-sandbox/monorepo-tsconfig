@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.4.0"
   }
 }

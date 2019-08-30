@@ -3,5 +3,6 @@
   "compilerOptions": {
     "module": "commonjs",
     "outDir": "./lib/cjs"
-  }
+  },
+  "include": ["typings/node/**/*", "src/**/*"]
 }
