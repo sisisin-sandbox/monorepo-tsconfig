@@ -1,9 +1,9 @@
-import { HogeDao } from 'shared/lib/cjs';
+import { HogeRepository } from 'shared/lib/cjs';
 import admin from 'firebase-admin';
 
-const hogeDao = new HogeDao(admin.firestore());
+const hogeRepository = new HogeRepository(admin.firestore());
 async function main() {
-  console.log(await hogeDao.get());
+  console.log(await hogeRepository.get());
 }
 
 main().catch(console.error);

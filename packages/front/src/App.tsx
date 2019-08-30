@@ -1,15 +1,15 @@
 import React from 'react';
 
-import { HogeDao } from 'shared/lib/es';
+import { HogeRepository } from 'shared/lib/es';
 import * as firebase from 'firebase';
 firebase.initializeApp({});
 
-const hogeDao = new HogeDao(firebase.firestore());
+const hogeRepository = new HogeRepository(firebase.firestore());
 
 export const App: React.FC = () => {
   const [hoge, setHoge] = React.useState<number[]>([]);
   React.useEffect(() => {
-    hogeDao.get().then(hoge => {
+    hogeRepository.get().then(hoge => {
       console.log(hoge.docs);
     });
   }, []);

@@ -1,2 +1,2 @@
-export * from './HogeDao';
-export * from './FugaDao';
+export * from './HogeRepository';
+export * from './FugaRepository';
